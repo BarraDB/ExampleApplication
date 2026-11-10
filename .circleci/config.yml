@@ -9,7 +9,7 @@ workflows:
           branches:
             only:
               - main
-      - build:
+      - deploy:
         filters:
           branches:
             only:
